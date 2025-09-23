@@ -14,11 +14,11 @@
    <body>
  <header>
   <nav>
-    <img src="https://muxotepotolobat.com/cafecito-3/" alt="Un logo de la empresa">
+    <img src="cafecito-compartido.jpg" alt="Un logo de la empresa" width="100" height="100">
     <ul>
-      <li><a href="#">Inicio</a></li>
-      <li><a href="#">Servicios</a></li>
-      <li><a href="#">Contacto</a></li>
+      <li><a href="#Products">Inicio</a></li>
+      <li><a href="#table">Servicios</a></li>
+      <li><a href="#form">Contacto</a></li>
     </ul>
   </nav>
   </header>
@@ -34,7 +34,7 @@
   </section>
 
  <section>
-  <h2>Products</h2>
+  <h2 id="Products">Products</h2>
 <div>
   <figure>
     <img src="C:\Users\leoas\OneDrive\Pictures\Saved Pictures\pexels-pixabay-302899.jpg" alt="Producto 1">
@@ -55,7 +55,7 @@
 </div>
  </section>
 
-<table table border="3" align="center" style="width:50%; background-color: #c94dc9; text-align: center;">
+<table id="table" table border="3" align="center" style="width:50%; background-color: #c94dc9; text-align: center;">
  
  <tr>
       <th>HOTTY HOTTY</th>
@@ -229,9 +229,10 @@
 
 
 
- <form  text-align: center;>
+ <form id="form" text-align: center;>
   <h2>Contact us</h2>
   <Fieldset>
+    <legend>Type Name</legend>
     <label for="name">Name:</label>
   <input type="text" id="name" name="name" required align="center"> 
 
